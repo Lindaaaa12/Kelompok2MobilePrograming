@@ -1,0 +1,24 @@
+# Flutter
+.dart_tool/
+.build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Build output
+build/
+
+# Android
+android/local.properties
+android/.gradle/
+android/app/build/
+
+# IDE
+.idea/
+*.iml
+
+# macOS (HINDARI ERROR)
+macos/
+
+# OS
+.DS_Store
+Thumbs.db

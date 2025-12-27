@@ -1,0 +1,47 @@
+name: preskom
+description: "Aplikasi Presensi SMK Telkom Lampung"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Manajemen Gambar
+  image_picker: ^1.1.2
+
+  # Database Lokal
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+
+  # Penyimpanan data sederhana
+  shared_preferences: ^2.2.3
+
+  # --- FITUR UPLOAD ---
+  file_picker: ^8.1.2
+
+  # Untuk membaca data dari file CSV
+  csv: ^6.0.0
+
+  # --- TAMBAHAN UNTUK TANGGAL & DOWNLOAD (DIPERBARUI) ---
+  intl: ^0.19.0
+  path_provider: ^2.1.2     # <--- TAMBAHKAN INI (Untuk cari folder simpan)
+  permission_handler: ^11.3.1 # <--- TAMBAHKAN INI (Untuk izin akses HP)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Asset Gambar
+  assets:
+    - assets/images/
